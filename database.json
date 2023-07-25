@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Jamal Dev",
+            "username": "pbandjamal",
+            "email": "pbandjamal@gmail.com",
+            "iconURL": "Screenshot_2023-07-17_145151_djqdba"
+        }
+    ],
+    "collections": [
+        {
+            "id": 1,
+            "name": "Rainey Street Vibes",
+            "description": "A collection of crazy stuff we've seen on Rainey St...",
+            "creatorId": 1
+        }
+    ],
+    "userCollections": [
+        {
+            "id": 1,
+            "userId": 1,
+            "collectionId": 1
+        }
+    ],
+    "photos": [
+        {
+            "id": 1,
+            "userId": 1,
+            "collectionId": 1,
+            "URLpublicId": "Screenshot_2023-07-17_145242_vyfauq"
+        }
+    ]
+}
