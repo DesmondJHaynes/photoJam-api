@@ -1,34 +1,231 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Jamal Dev",
-            "username": "pbandjamal",
-            "email": "pbandjamal@gmail.com",
-            "iconURL": "Screenshot_2023-07-17_145151_djqdba"
-        }
-    ],
-    "collections": [
-        {
-            "id": 1,
-            "name": "Rainey Street Vibes",
-            "description": "A collection of crazy stuff we've seen on Rainey St...",
-            "creatorId": 1
-        }
-    ],
-    "userCollections": [
-        {
-            "id": 1,
-            "userId": 1,
-            "collectionId": 1
-        }
-    ],
-    "photos": [
-        {
-            "id": 1,
-            "userId": 1,
-            "collectionId": 1,
-            "URLpublicId": "Screenshot_2023-07-17_145242_vyfauq"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Jamal Dev",
+      "username": "pbandjamal",
+      "email": "pbandjamal@gmail.com",
+      "iconPublicId": "g3xozovzurtrayhuxeg9"
+    },
+    {
+      "email": "firstuser@yahoo.com",
+      "name": "Jamal Sausage",
+      "username": "Deli-Meat-Man",
+      "iconPublicId": "p1foi7gf044dvddxa9g1",
+      "id": 2
+    },
+    {
+      "email": "livelovelaugh@gmail.com",
+      "name": "Sarah Streeter",
+      "username": "livelaughlove",
+      "iconPublicId": "outdoor-woman",
+      "id": 3
+    },
+    {
+      "email": "user5@gmail.com",
+      "name": "Me again",
+      "username": "user5",
+      "iconPublicId": "lap9noqfx3g9hwbgt1gw",
+      "id": 4
+    },
+    {
+      "email": "user6@gmail.com",
+      "name": "user6 man",
+      "username": "user6",
+      "iconPublicId": "gxnxjkdjqmdmn3iccy1t",
+      "id": 5
+    },
+    {
+      "email": "user7@gmail.com",
+      "name": "user man7",
+      "username": "user7",
+      "iconPublicId": "pkimpyrvux2hb04mdsoo",
+      "id": 6
+    },
+    {
+      "email": "user10@gmail.com",
+      "name": "user man",
+      "username": "user10",
+      "iconPublicId": "okj2abfiocnwlqjxatuv",
+      "id": 7
+    },
+    {
+      "email": "abc@gmail.com",
+      "name": "johnny bravo",
+      "username": "abc-man",
+      "iconPublicId": "s7ure725cxhkhv0qftyb",
+      "id": 8,
+      "iconUrl": "https://res.cloudinary.com/photojam-nss/image/upload/v1692113090/s7ure725cxhkhv0qftyb.png"
+    }
+  ],
+  "collections": [
+    {
+      "name": "Travel Daze",
+      "description": "Traveling Abroad with the crew!",
+      "hostId": 1,
+      "id": 2,
+      "thumbnail": "ztlr8qbw3f2dsmihuqs4"
+    },
+    {
+      "name": "Artist Alley",
+      "description": "Dope artwork man!",
+      "hostId": 5,
+      "thumbnail": "y6a8rxvy1gksvsnmy4jv",
+      "id": 4
+    },
+    {
+      "name": "weeeble wobble",
+      "description": "we weebling baby",
+      "hostId": 6,
+      "thumbnail": "wvoh9usvscq3lqel7aam",
+      "id": 5
+    },
+    {
+      "name": "another one",
+      "description": "daljk;ldak",
+      "hostId": 7,
+      "thumbnail": "cue4nrlie53bssmqtecn",
+      "id": 6
+    },
+    {
+      "name": "that one in night December",
+      "description": "you remember",
+      "hostId": 8,
+      "thumbnail": "hhgcsmotx2l657tnoqiz",
+      "id": 8
+    }
+  ],
+  "userCollections": [
+    {
+      "id": 2,
+      "userId": 1,
+      "collectionId": 2
+    },
+    {
+      "userId": 5,
+      "collectionId": 4,
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "collectionId": 5,
+      "id": 10
+    },
+    {
+      "userId": 7,
+      "collectionId": 6,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "collectionId": 4,
+      "id": 15
+    },
+    {
+      "userId": 2,
+      "collectionId": 4,
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "collectionId": 2,
+      "id": 21
+    },
+    {
+      "userId": 8,
+      "collectionId": 8,
+      "id": 27
+    }
+  ],
+  "photos": [
+    {
+      "userId": 6,
+      "collectionId": "5",
+      "publicId": "xbaofuu3qmoti6fh4dim",
+      "id": 16
+    },
+    {
+      "userId": 7,
+      "collectionId": 6,
+      "publicId": "cue4nrlie53bssmqtecn",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "collectionId": "2",
+      "publicId": "vh3ixdupfpitux0zcf9s",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692041032/vh3ixdupfpitux0zcf9s.jpg",
+      "id": 43
+    },
+    {
+      "userId": 1,
+      "collectionId": "2",
+      "publicId": "i0torov3rpnlqp63luhh",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692041046/i0torov3rpnlqp63luhh.jpg",
+      "id": 46
+    },
+    {
+      "userId": 5,
+      "collectionId": "4",
+      "publicId": "cfz8kxqvfnn52y88yu17",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692043637/cfz8kxqvfnn52y88yu17.png",
+      "id": 49
+    },
+    {
+      "userId": 5,
+      "collectionId": "4",
+      "publicId": "p8diidlorgps2hts8esc",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692043650/p8diidlorgps2hts8esc.png",
+      "id": 50
+    },
+    {
+      "userId": 5,
+      "collectionId": "4",
+      "publicId": "ad21dnq3m4ev6uqxjpj5",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692043674/ad21dnq3m4ev6uqxjpj5.png",
+      "id": 51
+    },
+    {
+      "userId": 1,
+      "collectionId": "4",
+      "publicId": "snunihatklrg8z3ibn4n",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692043862/snunihatklrg8z3ibn4n.png",
+      "id": 52
+    },
+    {
+      "userId": 1,
+      "collectionId": "4",
+      "publicId": "zcrg0zmvz1qoqiqcri4f",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692043887/zcrg0zmvz1qoqiqcri4f.png",
+      "id": 53
+    },
+    {
+      "userId": 5,
+      "collectionId": "2",
+      "publicId": "qsqdzswakt9qvzgymchi",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692102773/qsqdzswakt9qvzgymchi.jpg",
+      "id": 55
+    },
+    {
+      "userId": 1,
+      "collectionId": "2",
+      "publicId": "p41tjgxn24kjs0zheuw4",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692102901/p41tjgxn24kjs0zheuw4.jpg",
+      "id": 57
+    },
+    {
+      "userId": 8,
+      "collectionId": 8,
+      "publicId": "hhgcsmotx2l657tnoqiz",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692113042/hhgcsmotx2l657tnoqiz.webp",
+      "id": 59
+    },
+    {
+      "userId": 8,
+      "collectionId": "8",
+      "publicId": "r7c9mk5fmnlugvqvrjnh",
+      "url": "https://res.cloudinary.com/photojam-nss/image/upload/v1692113062/r7c9mk5fmnlugvqvrjnh.jpg",
+      "id": 60
+    }
+  ]
 }
